@@ -31,7 +31,6 @@ def Download(ver):
         Done = True
         exit(0)
     else:
-        Done = False
         print("Download Error, Redownloading!")
 
 if __name__ == "__main__":
